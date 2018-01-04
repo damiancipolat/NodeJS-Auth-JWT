@@ -2,6 +2,12 @@
 
 Colección de ejemplos de uso de JWT con Node.js
 
+## Ejemplos:
+* Para ver ejemplos de uso de JWT:
+**[Basico]**:
+
+[Basico]:https://github.com/damiancipolat/NodeJS-Auth-JWT/tree/master/basico
+
 ## Info:
 Un ejemplo de token consiste en:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1NGE4Y2U2MThlOTFiMGIxMzY2NWUyZjkiLCJpYXQiOiIxNDI0MTgwNDg0IiwiZXhwIjoiMTQyNTM5MDE0MiJ9.yk4nouUteW54F1HbWtgg1wJxeDjqDA_8AhUPyjE5K

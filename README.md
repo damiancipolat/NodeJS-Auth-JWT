@@ -24,7 +24,7 @@ http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#RegisteredClai
 
 ```json
 {
-   "sub": "54a8ce618e91b0b13665e2f9"
+   "sub": "54a8ce618e91b0b13665e2f9",
    "iat": "1424180484",
    "exp": "1425390142"
 }

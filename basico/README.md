@@ -3,7 +3,7 @@
 ### Instalación:
 Para realizar la instalación.
 
-Usamos el modulo JWT-Simple, https://www.npmjs.com/package/jwt-simple
+Usamos el modulo JWT-Simple: https://www.npmjs.com/package/jwt-simple
 
 ```sh
 $ cd basico

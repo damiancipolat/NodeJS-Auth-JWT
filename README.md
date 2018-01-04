@@ -6,6 +6,7 @@ Colección de ejemplos de uso de JWT con Node.js
 * Para ver ejemplos de uso de JWT:
 
 1) **[Basico]** / uso de JWT en un Api-rest.
+2) **[Login]** / usar JWT en el login de un Api-rest para generar tokens dif. para cada usuario.
 
 [Basico]:https://github.com/damiancipolat/NodeJS-Auth-JWT/tree/master/basico
 

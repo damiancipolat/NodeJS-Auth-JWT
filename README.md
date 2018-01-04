@@ -3,29 +3,31 @@
 Colección de ejemplos de uso de JWT con Node.js
 
 ## Info:
-JWT
-token:
+Un ejemplo de token consiste en:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1NGE4Y2U2MThlOTFiMGIxMzY2NWUyZjkiLCJpYXQiOiIxNDI0MTgwNDg0IiwiZXhwIjoiMTQyNTM5MDE0MiJ9.yk4nouUteW54F1HbWtgg1wJxeDjqDA_8AhUPyjE5K
 
-0U
+Esta separado en tres partes: header, payload, signature
 
-- header:
+### Header:
+```json
 {
   "typ": "JWT",  //Tipo de token
   "alg": "HS256  //Algoritmo
 }
+```
+- Codificado seria: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 
-codificado daria:
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
-
-- payload:
+### Payload:
+Se compone de JWT-Claims, en este link podes ver más info. 
 http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html#RegisteredClaimName
 
+```json
 {
    "sub": "54a8ce618e91b0b13665e2f9", //sujeto del token
    "iat": "1424180484",		      //fecha de creacion
    "exp": "1425390142"		      //fecha de expiracion
 }
+```
 
 Se pueden agregar atributos personalizados:
 {

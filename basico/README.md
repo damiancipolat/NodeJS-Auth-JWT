@@ -17,8 +17,9 @@ $ node app.js
 ### API:
 
 - Obtener tokens:
-GET: http://127.0.0.1:3000/token
 
+GET:  http://127.0.0.1:3000/token
+ 
 Respuesta:
 ```json
 {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5OTkiLCJpYXQiOjE1MTUwMjg0OTcsImV4cCI6MTUxNjIzODA5N30.b9H7U_VIYTrgE1kkGZmJLYJuwXk5we43TrSxODBOwxw"}

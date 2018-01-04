@@ -1,7 +1,7 @@
 # NodeJS - JWT - Ejemplo Basico
 
 ### Instalación:
-Para realizar la instalación.
+- Para realizar la instalación.
 
 Usamos el modulo JWT-Simple: https://www.npmjs.com/package/jwt-simple
 

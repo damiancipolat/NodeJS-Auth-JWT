@@ -44,4 +44,4 @@ POST: 127.0.0.1:3000/info
 BODY: 
 - token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjAwMSIsImlhdCI6MTUxNTA0MTI0OSwiZXhwIjoxNTE1MTI3NjQ5fQ.CZ5hYn0EyvEV-mw6aK620rrhNCknaMTlSN9iz-7fiEI
 
- 
+ Es importante usar el token obtenido en el request de login, se obtiene uno por cada acceso.
